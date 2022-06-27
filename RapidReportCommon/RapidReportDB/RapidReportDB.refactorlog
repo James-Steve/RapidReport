@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6d85be16-71d0-498d-b2fc-150873a5f081" ChangeDateTime="06/27/2022 10:47:05">
+    <Property Name="ElementName" Value="[dbo].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8b4fcfa4-c9ba-4842-b01c-487ed4e0b393" ChangeDateTime="06/27/2022 11:36:34">
+    <Property Name="ElementName" Value="[dbo].[EventUpdate].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EventUpdate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c2f377e8-eb84-42ac-b15f-7a1aedd75f89" ChangeDateTime="06/27/2022 11:38:09">
+    <Property Name="ElementName" Value="[dbo].[Event].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Event]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b7370032-b146-437b-a3c1-ad86c32a7ed3" ChangeDateTime="06/27/2022 11:39:56">
+    <Property Name="ElementName" Value="[dbo].[Event].[EventStart]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Event]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventStartDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="58414709-44a3-48f5-970b-29b3c8bf5a5d" ChangeDateTime="06/27/2022 11:42:25">
+    <Property Name="ElementName" Value="[dbo].[CrimeReport].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CrimeReport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CrimeReportID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="741cb61f-5760-438e-95dd-fd4f9a925a1d" ChangeDateTime="06/27/2022 11:44:43">
+    <Property Name="ElementName" Value="[dbo].[EventType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EventType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f28c8108-4314-4a39-b358-0b373ea05761" ChangeDateTime="06/27/2022 11:46:51">
+    <Property Name="ElementName" Value="[dbo].[EventImage].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EventImage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d19dea14-dc55-468b-be44-acc9fced414c" ChangeDateTime="06/27/2022 11:47:32">
+    <Property Name="ElementName" Value="[dbo].[EventImage].[E]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EventImage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EventImageLocation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="23d171f7-e2b9-4911-a6ef-e43c28b0cc9a" ChangeDateTime="06/27/2022 11:50:02">
+    <Property Name="ElementName" Value="[dbo].[Suspect].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Suspect]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SuspectID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9a734b1-f9c1-43a9-91a4-441c05979b27" ChangeDateTime="06/27/2022 11:54:11">
+    <Property Name="ElementName" Value="[dbo].[CrimeReportSuspect].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CrimeReportSuspect]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CrimeReportID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="faa8a04b-d4e3-4671-bffe-66662c61cdf6" ChangeDateTime="06/27/2022 11:56:29">
+    <Property Name="ElementName" Value="[dbo].[CrimeReportImage].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CrimeReportImage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FileLocation" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a5bc7eb-8c12-4259-9b91-30964ad27108" ChangeDateTime="06/27/2022 11:57:33">
+    <Property Name="ElementName" Value="[dbo].[CrimeType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CrimeType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CrimeTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="44d73b36-5ae7-4dee-beaa-1c1340f91b0c" ChangeDateTime="06/27/2022 12:13:22">
+    <Property Name="ElementName" Value="[dbo].[Notifications].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Notifications]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NotificationID" />
+  </Operation>
+</Operations>

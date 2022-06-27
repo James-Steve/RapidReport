@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CrimeReport] (Table)
+       [dbo].[CrimeReportImage] (Table)
+       [dbo].[CrimeReportSuspect] (Table)
+       [dbo].[CrimeType] (Table)
+       [dbo].[Event] (Table)
+       [dbo].[EventImage] (Table)
+       [dbo].[EventType] (Table)
+       [dbo].[EventUpdate] (Table)
+       [dbo].[Notifications] (Table)
+       [dbo].[Suspect] (Table)
+       [dbo].[User] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Event] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+
+** Supporting actions

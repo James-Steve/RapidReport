@@ -1,0 +1,6 @@
+C:\Users\hamst\Documents\Rapid Report\RapidReportCommon\RapidReportDB\bin\Debug\RapidReportDB.dacpac
+C:\Users\hamst\Documents\Rapid Report\RapidReportCommon\RapidReportDB\bin\Debug\RapidReportDB.dll
+C:\Users\hamst\Documents\Rapid Report\RapidReportCommon\RapidReportDB\bin\Debug\RapidReportDB.pdb
+C:\Users\hamst\Documents\Rapid Report\RapidReportCommon\RapidReportDB\obj\Debug\RapidReportDB.sqlproj.AssemblyReference.cache
+C:\Users\hamst\Documents\Rapid Report\RapidReportCommon\RapidReportDB\obj\Debug\RapidReportDB.dll
+C:\Users\hamst\Documents\Rapid Report\RapidReportCommon\RapidReportDB\obj\Debug\RapidReportDB.pdb
