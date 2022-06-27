@@ -1,5 +1,7 @@
 ﻿CREATE TABLE [dbo].[CrimeReportSuspect]
 (
-	[CrimeReportID] INT NOT NULL , 
-    [SuspectID] INT NOT NULL
+	[CrimeReportID] INT NOT NULL Foreign key References CrimeReport(CrimeReportID), 
+    [SuspectID] INT NOT NULL Foreign key References Suspect(SuspectID),
+	Primary key (CrimeReportID, SuspectID)
+
 )

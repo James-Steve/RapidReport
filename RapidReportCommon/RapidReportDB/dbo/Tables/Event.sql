@@ -6,6 +6,6 @@
     [EventEndDate] DATETIME2 NULL, 
     [EventDescription] NVARCHAR(500) NOT NULL, 
     [EventStatus] BIT NOT NULL DEFAULT 1, 
-    [IDNumber] CHAR(13) NOT NULL, 
-    [EventTypeID] INT NOT NULL
+    [IDNumber] CHAR(13) NOT NULL Foreign key References [dbo].[User](IDNumber), 
+    [EventTypeID] INT NOT NULL Foreign key References EventType(EventTypeID)
 )
